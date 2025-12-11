@@ -1,0 +1,34 @@
+{
+  "id": "exp_sample_002",
+  "name": "Robustness Test - Geometric Transforms",
+  "description": "Test steganography robustness against geometric transformations",
+  "dataset": "default",
+  "transforms": [
+    {
+      "type": "rotation",
+      "params": {
+        "angle": 45
+      }
+    },
+    {
+      "type": "crop",
+      "params": {
+        "ratio": 0.8
+      }
+    },
+    {
+      "type": "blur",
+      "params": {
+        "radius": 3
+      }
+    }
+  ],
+  "model": {
+    "type": "dry-run-stub"
+  },
+  "output": {
+    "saveImages": false,
+    "saveMetrics": true,
+    "verbose": true
+  }
+}

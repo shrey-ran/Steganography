@@ -1,0 +1,35 @@
+# Sample Experiment Configuration
+# Use this as a template for defining experiments
+
+id: "exp_sample_001"
+name: "Robustness Test - JPEG Compression"
+description: "Test steganography robustness against JPEG compression"
+
+dataset: "default"
+
+transforms:
+  - type: "jpeg-compression"
+    params:
+      quality: 75
+  
+  - type: "jpeg-compression"
+    params:
+      quality: 50
+  
+  - type: "gaussian-noise"
+    params:
+      sigma: 0.05
+  
+  - type: "resize"
+    params:
+      scale: 0.75
+
+# Model configuration
+model:
+  type: "dry-run-stub"
+  
+# Output settings
+output:
+  saveImages: false
+  saveMetrics: true
+  verbose: true

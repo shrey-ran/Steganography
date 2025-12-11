@@ -1,0 +1,15 @@
+{
+  "_comment": "Sample experiment configuration for local development and testing",
+  "_ethics": "This configuration uses conservative defaults suitable for dry-run testing. All experiments must comply with ethical guidelines and data usage policies.",
+  "_dryrun": "Use dryRun=true in API requests to validate without executing transforms",
+  
+  "name": "local-dryrun-1",
+  "dataset": "sample_images",
+  "batchSize": 2,
+  "epochs": 1,
+  "transforms": [
+    {"name":"jpeg","quality":80},
+    {"name":"resize","width":256,"height":256}
+  ],
+  "outputDir": "scripts/output/local-dryrun-1"
+}

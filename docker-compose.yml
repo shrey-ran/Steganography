@@ -1,0 +1,151 @@
+# docker-compose.yml
+# Local development setup with Docker Compose (OPTIONAL)
+# 
+# ⚠️  Docker is for convenience only - NOT for heavy training
+# ⚠️  Use bare metal for actual experiments and computationally intensive tasks
+# ⚠️  Resource limits prevent container abuse - adjust based on your system
+# 
+# Usage:
+#   Start backend only:     docker-compose up -d backend
+#   Start with frontend:    docker-compose up -d
+#   View logs:              docker-compose logs -f
+#   Stop all:               docker-compose down
+#   Monitor resources:      docker stats
+
+version: '3.8'
+
+services:
+  # Backend API Service
+  backend:
+    build:
+      context: .
+      dockerfile: docker/Dockerfile
+    container_name: stego-backend
+    ports:
+      - "8000:8000"
+    environment:
+      - NODE_ENV=development
+      - PORT=8000
+      - ALLOW_TRAINING=false
+      - DB_PATH=/app/scripts/output/db.json
+      - LOG_LEVEL=info
+    volumes:
+      # Bind mounts for persistence
+      - ./scripts/output:/app/scripts/output
+      - ./logs:/app/logs
+      - ./.env:/app/.env:ro
+      # Optional: Uncomment for live code editing in container
+      # - ./backend:/app/backend:ro
+      # - ./models:/app/models:ro
+      # - ./experiments:/app/experiments:ro
+      # - ./datasets:/app/datasets:ro
+    restart: unless-stopped
+    networks:
+      - stego-network
+    healthcheck:
+      test: ["CMD", "node", "-e", "require('http').get('http://localhost:8000/status', (r) => {process.exit(r.statusCode === 200 ? 0 : 1)})"]
+      interval: 30s
+      timeout: 5s
+      start_period: 10s
+      retries: 3
+    # Resource limits to prevent runaway processes
+    deploy:
+      resources:
+        limits:
+          cpus: '2.0'      # Max 2 CPU cores
+          memory: 2G       # Max 2GB RAM
+        reservations:
+          cpus: '0.5'      # Min 0.5 CPU cores
+          memory: 512M     # Min 512MB RAM
+
+  # Frontend Service (OPTIONAL)
+  # Uncomment this section to run frontend in Docker
+  # NOTE: Running frontend natively (npm start) is recommended for development
+  frontend:
+    image: node:18-slim
+    container_name: stego-frontend
+    working_dir: /app/frontend
+    ports:
+      - "3000:3000"
+    environment:
+      - REACT_APP_API_URL=http://localhost:8000
+      - CHOKIDAR_USEPOLLING=true    # Required for file watching in Docker
+      - WATCHPACK_POLLING=true
+      - WDS_SOCKET_PORT=3000
+    volumes:
+      # Bind mount entire frontend directory for hot reload
+      - ./frontend:/app/frontend
+      # Prevent node_modules from being overwritten
+      - /app/frontend/node_modules
+    command: sh -c "npm install && npm start"
+    depends_on:
+      backend:
+        condition: service_healthy
+    restart: unless-stopped
+    networks:
+      - stego-network
+    # Frontend development server is resource intensive
+    deploy:
+      resources:
+        limits:
+          cpus: '2.0'
+          memory: 3G       # React dev server needs more RAM
+        reservations:
+          cpus: '0.5'
+          memory: 1G
+    stdin_open: true
+    tty: true
+
+networks:
+  stego-network:
+    driver: bridge
+
+# ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+# RESOURCE WARNINGS AND RECOMMENDATIONS
+# ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+#
+# ⚠️  CONTAINER LIMITATIONS:
+#   - Backend: Limited to 2 CPU cores and 2GB RAM
+#   - Frontend: Limited to 2 CPU cores and 3GB RAM
+#   - These limits prevent resource abuse but impact performance
+#
+# ⚠️  NOT SUITABLE FOR:
+#   - Model training (use bare metal)
+#   - Large dataset processing
+#   - Computationally intensive experiments
+#   - Production deployment
+#
+# ✅  GOOD FOR:
+#   - API development and testing
+#   - Dry-run experiments
+#   - Quick local setup
+#   - CI/CD integration
+#
+# 📊  MONITORING:
+#   Monitor container resources:
+#     docker stats
+#   
+#   View resource usage per service:
+#     docker stats stego-backend stego-frontend
+#
+# 🔧  ADJUSTING LIMITS:
+#   Edit the deploy.resources sections above based on your system.
+#   Check available resources: docker system info
+#
+# 🚀  PERFORMANCE:
+#   For best performance, run services natively:
+#     Backend:  node backend/index.js
+#     Frontend: cd frontend && npm start
+#
+# ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+# ETHICS REMINDER
+# ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+#
+# - This setup is for LOCAL DEVELOPMENT ONLY
+# - All ethics warnings and compliance checks remain active
+# - ALLOW_TRAINING defaults to false in containers
+# - Supervisor/IRB approval required before enabling training
+# - Do NOT push containers with trained models to registries
+# - Do NOT use for malicious or unethical purposes
+#
+# ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━

@@ -1,0 +1,14 @@
+{
+  "type": "placeholder-image",
+  "id": "sample_3",
+  "description": "Sample placeholder image 3 for testing metrics computation",
+  "dimensions": {
+    "width": 256,
+    "height": 256,
+    "channels": 3,
+    "format": "RGB"
+  },
+  "size_bytes": 196608,
+  "created": "2025-12-07T00:00:00.000Z",
+  "note": "This is a JSON placeholder. For real testing, use Sharp to create actual PNG images with: sharp({ create: { width: 256, height: 256, channels: 3, background: { r: 128, g: 128, b: 128 } } }).png().toFile('sample.png')"
+}

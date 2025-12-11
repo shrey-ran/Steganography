@@ -1,0 +1,1278 @@
+{
+  "experiments": [
+    {
+      "id": "exp_1765444709462_pfyhb2cul",
+      "name": "Test-Exp-01",
+      "message": "The quick brown fox jumps over the lazy dog",
+      "dataset": "sample_images",
+      "batchSize": 4,
+      "epochs": 1,
+      "transforms": [
+        {
+          "name": "jpeg",
+          "quality": 85
+        }
+      ],
+      "status": "completed",
+      "createdAt": "2025-12-11T09:18:29.462Z",
+      "updatedAt": "2025-12-11T10:11:30.311Z",
+      "startedAt": "2025-12-11T10:11:29.684Z",
+      "dryRun": true,
+      "exitCode": 0,
+      "completedAt": "2025-12-11T10:11:30.311Z"
+    },
+    {
+      "id": "exp_1765444709469_ymxzraa8w",
+      "name": "Test-Exp-02",
+      "message": "Steganography is the practice of concealing data",
+      "dataset": "coco_subset",
+      "batchSize": 4,
+      "epochs": 1,
+      "transforms": [
+        {
+          "name": "resize",
+          "width": 256,
+          "height": 256
+        }
+      ],
+      "status": "completed",
+      "createdAt": "2025-12-11T09:18:29.469Z",
+      "updatedAt": "2025-12-11T09:18:53.112Z",
+      "startedAt": "2025-12-11T09:18:52.822Z",
+      "dryRun": true,
+      "exitCode": 0,
+      "completedAt": "2025-12-11T09:18:53.112Z"
+    },
+    {
+      "id": "exp_1765444709472_x77kt59oj",
+      "name": "Test-Exp-03",
+      "message": "Hidden message number three with special chars: !@#$%",
+      "dataset": "imagenet_mini",
+      "batchSize": 4,
+      "epochs": 1,
+      "transforms": [
+        {
+          "name": "noise",
+          "sigma": 0.05
+        }
+      ],
+      "status": "created",
+      "createdAt": "2025-12-11T09:18:29.472Z",
+      "updatedAt": "2025-12-11T09:18:29.472Z"
+    },
+    {
+      "id": "exp_1765444709474_s5gdrdi9b",
+      "name": "Test-Exp-04",
+      "message": "Image processing with LSB embedding technique",
+      "dataset": "sample_images",
+      "batchSize": 4,
+      "epochs": 1,
+      "transforms": [
+        {
+          "name": "jpeg",
+          "quality": 75
+        },
+        {
+          "name": "resize",
+          "width": 512,
+          "height": 512
+        }
+      ],
+      "status": "completed",
+      "createdAt": "2025-12-11T09:18:29.474Z",
+      "updatedAt": "2025-12-11T09:18:56.229Z",
+      "startedAt": "2025-12-11T09:18:55.925Z",
+      "dryRun": true,
+      "exitCode": 0,
+      "completedAt": "2025-12-11T09:18:56.229Z"
+    },
+    {
+      "id": "exp_1765444709477_8axpsdse4",
+      "name": "Test-Exp-05",
+      "message": "Robustness testing of steganographic methods",
+      "dataset": "coco_subset",
+      "batchSize": 4,
+      "epochs": 1,
+      "transforms": [
+        {
+          "name": "resize",
+          "width": 128,
+          "height": 128
+        },
+        {
+          "name": "noise",
+          "sigma": 0.1
+        }
+      ],
+      "status": "completed",
+      "createdAt": "2025-12-11T09:18:29.477Z",
+      "updatedAt": "2025-12-11T09:18:59.448Z",
+      "startedAt": "2025-12-11T09:18:59.140Z",
+      "dryRun": true,
+      "exitCode": 0,
+      "completedAt": "2025-12-11T09:18:59.448Z"
+    },
+    {
+      "id": "exp_1765444709480_vplnq54az",
+      "name": "Test-Exp-06",
+      "message": "Encryption and data hiding in digital images",
+      "dataset": "imagenet_mini",
+      "batchSize": 4,
+      "epochs": 1,
+      "transforms": [
+        {
+          "name": "jpeg",
+          "quality": 90
+        }
+      ],
+      "status": "completed",
+      "createdAt": "2025-12-11T09:18:29.480Z",
+      "updatedAt": "2025-12-11T09:19:02.768Z",
+      "startedAt": "2025-12-11T09:19:02.490Z",
+      "dryRun": true,
+      "exitCode": 0,
+      "completedAt": "2025-12-11T09:19:02.768Z"
+    },
+    {
+      "id": "exp_1765444709483_t04cu5ewl",
+      "name": "Test-Exp-07",
+      "message": "Advanced security through image steganography",
+      "dataset": "sample_images",
+      "batchSize": 4,
+      "epochs": 1,
+      "transforms": [
+        {
+          "name": "noise",
+          "sigma": 0.02
+        },
+        {
+          "name": "jpeg",
+          "quality": 80
+        }
+      ],
+      "status": "completed",
+      "createdAt": "2025-12-11T09:18:29.483Z",
+      "updatedAt": "2025-12-11T09:19:05.409Z",
+      "startedAt": "2025-12-11T09:19:05.124Z",
+      "dryRun": true,
+      "exitCode": 0,
+      "completedAt": "2025-12-11T09:19:05.409Z"
+    },
+    {
+      "id": "exp_1765444709485_acw054aan",
+      "name": "Test-Exp-08",
+      "message": "Testing message extraction capabilities",
+      "dataset": "coco_subset",
+      "batchSize": 4,
+      "epochs": 1,
+      "transforms": [
+        {
+          "name": "resize",
+          "width": 384,
+          "height": 384
+        }
+      ],
+      "status": "completed",
+      "createdAt": "2025-12-11T09:18:29.485Z",
+      "updatedAt": "2025-12-11T09:19:09.493Z",
+      "startedAt": "2025-12-11T09:19:09.207Z",
+      "dryRun": true,
+      "exitCode": 0,
+      "completedAt": "2025-12-11T09:19:09.493Z"
+    },
+    {
+      "id": "exp_1765444709488_u4a6shas9",
+      "name": "Test-Exp-09",
+      "message": "Verifying custom message embedding feature",
+      "dataset": "imagenet_mini",
+      "batchSize": 4,
+      "epochs": 1,
+      "transforms": [
+        {
+          "name": "jpeg",
+          "quality": 95
+        },
+        {
+          "name": "noise",
+          "sigma": 0.03
+        }
+      ],
+      "status": "completed",
+      "createdAt": "2025-12-11T09:18:29.488Z",
+      "updatedAt": "2025-12-11T09:19:11.613Z",
+      "startedAt": "2025-12-11T09:19:11.287Z",
+      "dryRun": true,
+      "exitCode": 0,
+      "completedAt": "2025-12-11T09:19:11.613Z"
+    },
+    {
+      "id": "exp_1765444709491_mzayxxe3x",
+      "name": "Test-Exp-10",
+      "message": "Final experiment with comprehensive testing",
+      "dataset": "sample_images",
+      "batchSize": 4,
+      "epochs": 1,
+      "transforms": [
+        {
+          "name": "resize",
+          "width": 320,
+          "height": 320
+        },
+        {
+          "name": "jpeg",
+          "quality": 85
+        }
+      ],
+      "status": "completed",
+      "createdAt": "2025-12-11T09:18:29.491Z",
+      "updatedAt": "2025-12-11T09:19:13.603Z",
+      "startedAt": "2025-12-11T09:19:13.307Z",
+      "dryRun": true,
+      "exitCode": 0,
+      "completedAt": "2025-12-11T09:19:13.603Z"
+    },
+    {
+      "id": "exp_1765444991113_a00bvhxtm",
+      "name": "Robustness-Test-Fixed",
+      "message": "Testing real robustness with harsh transforms",
+      "dataset": "sample_images",
+      "batchSize": 4,
+      "epochs": 1,
+      "transforms": [
+        {
+          "name": "jpeg",
+          "quality": 60
+        },
+        {
+          "name": "resize",
+          "width": 64,
+          "height": 64
+        },
+        {
+          "name": "noise",
+          "sigma": 0.1
+        }
+      ],
+      "status": "completed",
+      "createdAt": "2025-12-11T09:23:11.113Z",
+      "updatedAt": "2025-12-11T09:35:37.252Z",
+      "startedAt": "2025-12-11T09:35:36.628Z",
+      "dryRun": true,
+      "exitCode": 0,
+      "completedAt": "2025-12-11T09:35:37.252Z"
+    },
+    {
+      "id": "exp_1765445002749_hu4iqf8ik",
+      "name": "Robustness-Test-Fixed",
+      "message": "Testing real robustness with harsh transforms",
+      "dataset": "sample_images",
+      "batchSize": 4,
+      "epochs": 1,
+      "transforms": [
+        {
+          "name": "jpeg",
+          "quality": 60
+        },
+        {
+          "name": "resize",
+          "width": 64,
+          "height": 64
+        },
+        {
+          "name": "noise",
+          "sigma": 0.1
+        }
+      ],
+      "status": "completed",
+      "createdAt": "2025-12-11T09:23:22.749Z",
+      "updatedAt": "2025-12-11T09:30:18.759Z",
+      "startedAt": "2025-12-11T09:30:18.370Z",
+      "dryRun": true,
+      "exitCode": 0,
+      "completedAt": "2025-12-11T09:30:18.759Z"
+    },
+    {
+      "id": "exp_1765445107932_1sk50co6x",
+      "name": "Robustness-Test-Fixed",
+      "message": "Testing real robustness with harsh transforms",
+      "dataset": "sample_images",
+      "batchSize": 4,
+      "epochs": 1,
+      "transforms": [
+        {
+          "name": "jpeg",
+          "quality": 60
+        },
+        {
+          "name": "resize",
+          "width": 64,
+          "height": 64
+        },
+        {
+          "name": "noise",
+          "sigma": 0.1
+        }
+      ],
+      "status": "completed",
+      "createdAt": "2025-12-11T09:25:07.932Z",
+      "updatedAt": "2025-12-11T09:35:41.612Z",
+      "startedAt": "2025-12-11T09:35:41.327Z",
+      "dryRun": true,
+      "exitCode": 0,
+      "completedAt": "2025-12-11T09:35:41.612Z"
+    },
+    {
+      "id": "exp_1765445288302_yg5cnyzrl",
+      "name": "Robustness-Test-Fixed",
+      "message": "Testing real robustness with harsh transforms",
+      "dataset": "sample_images",
+      "batchSize": 4,
+      "epochs": 1,
+      "transforms": [
+        {
+          "name": "jpeg",
+          "quality": 60
+        },
+        {
+          "name": "resize",
+          "width": 64,
+          "height": 64
+        },
+        {
+          "name": "noise",
+          "sigma": 0.1
+        }
+      ],
+      "status": "completed",
+      "createdAt": "2025-12-11T09:28:08.302Z",
+      "updatedAt": "2025-12-11T09:28:15.812Z",
+      "startedAt": "2025-12-11T09:28:15.094Z",
+      "dryRun": true,
+      "exitCode": 0,
+      "completedAt": "2025-12-11T09:28:15.812Z"
+    },
+    {
+      "id": "exp_1765445598134_b0hhp3iwi",
+      "name": "Robustness-Test-Fixed",
+      "message": "Testing real robustness with harsh transforms",
+      "dataset": "sample_images",
+      "batchSize": 4,
+      "epochs": 1,
+      "transforms": [
+        {
+          "name": "jpeg",
+          "quality": 60
+        },
+        {
+          "name": "resize",
+          "width": 64,
+          "height": 64
+        },
+        {
+          "name": "noise",
+          "sigma": 0.1
+        }
+      ],
+      "status": "completed",
+      "createdAt": "2025-12-11T09:33:18.134Z",
+      "updatedAt": "2025-12-11T09:33:26.515Z",
+      "startedAt": "2025-12-11T09:33:25.674Z",
+      "dryRun": true,
+      "exitCode": 0,
+      "completedAt": "2025-12-11T09:33:26.515Z"
+    },
+    {
+      "id": "exp_1765447125782_znirexqsh",
+      "name": "Full-Retrieval-Test",
+      "message": "This message should be fully recoverable with gentle transforms",
+      "dataset": "sample_images",
+      "batchSize": 4,
+      "epochs": 1,
+      "transforms": [
+        {
+          "name": "jpeg",
+          "quality": 95
+        },
+        {
+          "name": "resize",
+          "width": 256,
+          "height": 256
+        }
+      ],
+      "status": "completed",
+      "createdAt": "2025-12-11T09:58:45.782Z",
+      "updatedAt": "2025-12-11T09:58:46.553Z",
+      "startedAt": "2025-12-11T09:58:45.789Z",
+      "dryRun": true,
+      "exitCode": 0,
+      "completedAt": "2025-12-11T09:58:46.553Z"
+    },
+    {
+      "id": "exp_1765447125785_r8ducfki3",
+      "name": "Partial-Retrieval-Test",
+      "message": "This message has partial recovery through moderate transforms applied",
+      "dataset": "coco_subset",
+      "batchSize": 4,
+      "epochs": 1,
+      "transforms": [
+        {
+          "name": "jpeg",
+          "quality": 70
+        },
+        {
+          "name": "noise",
+          "sigma": 0.05
+        },
+        {
+          "name": "resize",
+          "width": 128,
+          "height": 128
+        }
+      ],
+      "status": "completed",
+      "createdAt": "2025-12-11T09:58:45.785Z",
+      "updatedAt": "2025-12-11T09:58:46.596Z",
+      "startedAt": "2025-12-11T09:58:45.796Z",
+      "dryRun": true,
+      "exitCode": 0,
+      "completedAt": "2025-12-11T09:58:46.596Z"
+    },
+    {
+      "id": "exp_1765447125787_r7iosebqb",
+      "name": "No-Retrieval-Test",
+      "message": "This message will be completely lost with harsh destructive transforms",
+      "dataset": "imagenet_mini",
+      "batchSize": 4,
+      "epochs": 1,
+      "transforms": [
+        {
+          "name": "jpeg",
+          "quality": 50
+        },
+        {
+          "name": "noise",
+          "sigma": 0.2
+        },
+        {
+          "name": "resize",
+          "width": 64,
+          "height": 64
+        }
+      ],
+      "status": "running",
+      "createdAt": "2025-12-11T09:58:45.787Z",
+      "updatedAt": "2025-12-11T09:58:45.799Z",
+      "startedAt": "2025-12-11T09:58:45.799Z",
+      "dryRun": true
+    },
+    {
+      "id": "exp_1765447237296_chjfve1yo",
+      "name": "Full-Retrieval-Test",
+      "message": "This message should be fully recoverable with gentle transforms",
+      "dataset": "sample_images",
+      "batchSize": 4,
+      "epochs": 1,
+      "transforms": [
+        {
+          "name": "jpeg",
+          "quality": 95
+        },
+        {
+          "name": "resize",
+          "width": 256,
+          "height": 256
+        }
+      ],
+      "status": "completed",
+      "createdAt": "2025-12-11T10:00:37.297Z",
+      "updatedAt": "2025-12-11T10:00:38.118Z",
+      "startedAt": "2025-12-11T10:00:37.301Z",
+      "dryRun": true,
+      "exitCode": 0,
+      "completedAt": "2025-12-11T10:00:38.118Z"
+    },
+    {
+      "id": "exp_1765447237308_fh3eyitl3",
+      "name": "Partial-Retrieval-Test",
+      "message": "This message has partial recovery through moderate transforms",
+      "dataset": "coco_subset",
+      "batchSize": 4,
+      "epochs": 1,
+      "transforms": [
+        {
+          "name": "jpeg",
+          "quality": 70
+        },
+        {
+          "name": "noise",
+          "sigma": 0.05
+        },
+        {
+          "name": "resize",
+          "width": 128,
+          "height": 128
+        }
+      ],
+      "status": "completed",
+      "createdAt": "2025-12-11T10:00:37.308Z",
+      "updatedAt": "2025-12-11T10:00:38.155Z",
+      "startedAt": "2025-12-11T10:00:37.313Z",
+      "dryRun": true,
+      "exitCode": 0,
+      "completedAt": "2025-12-11T10:00:38.155Z"
+    },
+    {
+      "id": "exp_1765447237317_p3rjk8wqb",
+      "name": "No-Retrieval-Test",
+      "message": "This message will be completely lost with harsh destructive transforms",
+      "dataset": "imagenet_mini",
+      "batchSize": 4,
+      "epochs": 1,
+      "transforms": [
+        {
+          "name": "jpeg",
+          "quality": 50
+        },
+        {
+          "name": "noise",
+          "sigma": 0.2
+        },
+        {
+          "name": "resize",
+          "width": 64,
+          "height": 64
+        }
+      ],
+      "status": "completed",
+      "createdAt": "2025-12-11T10:00:37.317Z",
+      "updatedAt": "2025-12-11T10:00:38.156Z",
+      "startedAt": "2025-12-11T10:00:37.319Z",
+      "dryRun": true,
+      "exitCode": 0,
+      "completedAt": "2025-12-11T10:00:38.156Z"
+    },
+    {
+      "id": "exp_1765447422915_evi3p8ypr",
+      "name": "Gentle-Resize-Only-Test",
+      "message": "Testing with only resize transform - no JPEG compression",
+      "dataset": "sample_images",
+      "batchSize": 4,
+      "epochs": 1,
+      "transforms": [
+        {
+          "name": "resize",
+          "width": 512,
+          "height": 512
+        }
+      ],
+      "status": "completed",
+      "createdAt": "2025-12-11T10:03:42.915Z",
+      "updatedAt": "2025-12-11T10:03:43.808Z",
+      "startedAt": "2025-12-11T10:03:42.921Z",
+      "dryRun": true,
+      "exitCode": 0,
+      "completedAt": "2025-12-11T10:03:43.808Z"
+    },
+    {
+      "id": "exp_1765447501043_xl428ieqf",
+      "name": "Perfect-Extraction-No-Transform",
+      "message": "Message embedded and extracted from clean image without any transforms",
+      "dataset": "sample_images",
+      "batchSize": 4,
+      "epochs": 1,
+      "transforms": [],
+      "status": "completed",
+      "createdAt": "2025-12-11T10:05:01.043Z",
+      "updatedAt": "2025-12-11T10:05:01.957Z",
+      "startedAt": "2025-12-11T10:05:01.055Z",
+      "dryRun": true,
+      "exitCode": 0,
+      "completedAt": "2025-12-11T10:05:01.957Z"
+    },
+    {
+      "id": "exp_1765447501063_mi5ogln6l",
+      "name": "Partial-Loss-Single-Transform",
+      "message": "Message partially corrupted by single JPEG compression",
+      "dataset": "coco_subset",
+      "batchSize": 4,
+      "epochs": 1,
+      "transforms": [
+        {
+          "name": "jpeg",
+          "quality": 85
+        }
+      ],
+      "status": "completed",
+      "createdAt": "2025-12-11T10:05:01.063Z",
+      "updatedAt": "2025-12-11T10:05:01.958Z",
+      "startedAt": "2025-12-11T10:05:01.065Z",
+      "dryRun": true,
+      "exitCode": 0,
+      "completedAt": "2025-12-11T10:05:01.958Z"
+    },
+    {
+      "id": "exp_1765447501068_9v5w5r70i",
+      "name": "Complete-Loss-Multiple-Transforms",
+      "message": "Message completely destroyed by multiple harsh transforms",
+      "dataset": "imagenet_mini",
+      "batchSize": 4,
+      "epochs": 1,
+      "transforms": [
+        {
+          "name": "jpeg",
+          "quality": 50
+        },
+        {
+          "name": "resize",
+          "width": 128,
+          "height": 128
+        },
+        {
+          "name": "noise",
+          "sigma": 0.2
+        }
+      ],
+      "status": "completed",
+      "createdAt": "2025-12-11T10:05:01.068Z",
+      "updatedAt": "2025-12-11T10:05:01.984Z",
+      "startedAt": "2025-12-11T10:05:01.071Z",
+      "dryRun": true,
+      "exitCode": 0,
+      "completedAt": "2025-12-11T10:05:01.984Z"
+    },
+    {
+      "id": "exp_1765447618737_e1stnbf0r",
+      "name": "Partial-Recovery-Gentle-Transform",
+      "message": "This message should show partial recovery with gentle PNG and light resize",
+      "dataset": "coco_subset",
+      "batchSize": 4,
+      "epochs": 1,
+      "transforms": [
+        {
+          "name": "resize",
+          "width": 384,
+          "height": 384
+        }
+      ],
+      "status": "completed",
+      "createdAt": "2025-12-11T10:06:58.737Z",
+      "updatedAt": "2025-12-11T10:09:23.341Z",
+      "startedAt": "2025-12-11T10:09:22.687Z",
+      "dryRun": true,
+      "exitCode": 0,
+      "completedAt": "2025-12-11T10:09:23.341Z"
+    },
+    {
+      "id": "exp_1765447804729_jrur2ih1j",
+      "name": "Realistic-Partial-Recovery-Blur",
+      "message": "Test message for blur robustness",
+      "dataset": "sample_images",
+      "batchSize": 2,
+      "epochs": 1,
+      "transforms": [
+        {
+          "name": "blur",
+          "sigma": 0.5
+        }
+      ],
+      "status": "created",
+      "createdAt": "2025-12-11T10:10:04.729Z",
+      "updatedAt": "2025-12-11T10:10:04.729Z"
+    },
+    {
+      "id": "exp_1765447858870_ykco4il96",
+      "name": "High-Quality-JPEG-Recovery",
+      "message": "Hi",
+      "dataset": "sample_images",
+      "batchSize": 3,
+      "epochs": 1,
+      "transforms": [
+        {
+          "name": "jpeg",
+          "quality": 99
+        }
+      ],
+      "status": "completed",
+      "createdAt": "2025-12-11T10:10:58.870Z",
+      "updatedAt": "2025-12-11T10:14:43.339Z",
+      "startedAt": "2025-12-11T10:14:42.640Z",
+      "dryRun": true,
+      "exitCode": 0,
+      "completedAt": "2025-12-11T10:14:43.339Z"
+    },
+    {
+      "id": "exp_1765447876620_8sjejt0wv",
+      "name": "Test4",
+      "message": "Hi",
+      "dataset": "sample_images",
+      "batchSize": 2,
+      "epochs": 1,
+      "transforms": [
+        {
+          "name": "jpeg",
+          "quality": 95
+        }
+      ],
+      "status": "completed",
+      "createdAt": "2025-12-11T10:11:16.620Z",
+      "updatedAt": "2025-12-11T10:11:59.785Z",
+      "startedAt": "2025-12-11T10:11:59.143Z",
+      "dryRun": true,
+      "exitCode": 0,
+      "completedAt": "2025-12-11T10:11:59.785Z"
+    },
+    {
+      "id": "exp_1765447988491_etmabzeax",
+      "name": "Demo-Perfect-Recovery",
+      "message": "Perfect message recovery test",
+      "dataset": "sample_images",
+      "batchSize": 2,
+      "epochs": 1,
+      "transforms": [],
+      "status": "created",
+      "createdAt": "2025-12-11T10:13:08.491Z",
+      "updatedAt": "2025-12-11T10:13:08.491Z"
+    },
+    {
+      "id": "exp_1765447994086_0mi6rfayj",
+      "name": "Demo-Perfect-Recovery",
+      "message": "Perfect message recovery test",
+      "dataset": "sample_images",
+      "batchSize": 2,
+      "epochs": 1,
+      "transforms": [],
+      "status": "completed",
+      "createdAt": "2025-12-11T10:13:14.086Z",
+      "updatedAt": "2025-12-11T10:13:34.439Z",
+      "startedAt": "2025-12-11T10:13:33.699Z",
+      "dryRun": true,
+      "exitCode": 0,
+      "completedAt": "2025-12-11T10:13:34.439Z"
+    },
+    {
+      "id": "exp_1765448002495_1fgnayyjy",
+      "name": "Demo-Partial-Recovery",
+      "message": "Partial message recovery test",
+      "dataset": "sample_images",
+      "batchSize": 2,
+      "epochs": 1,
+      "transforms": [
+        {
+          "name": "bit-corruption",
+          "rate": 0.3
+        }
+      ],
+      "status": "completed",
+      "createdAt": "2025-12-11T10:13:22.495Z",
+      "updatedAt": "2025-12-11T10:23:18.606Z",
+      "startedAt": "2025-12-11T10:23:17.947Z",
+      "dryRun": true,
+      "exitCode": 0,
+      "completedAt": "2025-12-11T10:23:18.606Z"
+    },
+    {
+      "id": "exp_1765448007597_azectdb0m",
+      "name": "Demo-Complete-Loss",
+      "message": "Complete loss message recovery test",
+      "dataset": "sample_images",
+      "batchSize": 2,
+      "epochs": 1,
+      "transforms": [
+        {
+          "name": "bit-corruption",
+          "rate": 0.8
+        }
+      ],
+      "status": "running",
+      "createdAt": "2025-12-11T10:13:27.597Z",
+      "updatedAt": "2025-12-11T10:13:33.718Z",
+      "startedAt": "2025-12-11T10:13:33.718Z",
+      "dryRun": true
+    },
+    {
+      "id": "exp_1765448134675_6z6o98qno",
+      "name": "Partial-30pct",
+      "message": "Test msg",
+      "dataset": "sample_images",
+      "batchSize": 1,
+      "epochs": 1,
+      "transforms": [
+        {
+          "name": "bit-corruption",
+          "rate": 0.3
+        }
+      ],
+      "status": "completed",
+      "createdAt": "2025-12-11T10:15:34.675Z",
+      "updatedAt": "2025-12-11T10:15:35.322Z",
+      "startedAt": "2025-12-11T10:15:34.695Z",
+      "dryRun": true,
+      "exitCode": 0,
+      "completedAt": "2025-12-11T10:15:35.322Z"
+    },
+    {
+      "id": "exp_1765448134684_86hzbz5yn",
+      "name": "Complete-80pct",
+      "message": "Test msg",
+      "dataset": "sample_images",
+      "batchSize": 1,
+      "epochs": 1,
+      "transforms": [
+        {
+          "name": "bit-corruption",
+          "rate": 0.8
+        }
+      ],
+      "status": "running",
+      "createdAt": "2025-12-11T10:15:34.684Z",
+      "updatedAt": "2025-12-11T10:15:34.703Z",
+      "startedAt": "2025-12-11T10:15:34.703Z",
+      "dryRun": true
+    },
+    {
+      "id": "exp_1765448182782_bzfap73cd",
+      "name": "Test-Partial-Recovery-v2",
+      "message": "Perfect test message here",
+      "dataset": "sample_images",
+      "batchSize": 1,
+      "epochs": 1,
+      "transforms": [
+        {
+          "name": "bit-corruption",
+          "rate": 0.3
+        }
+      ],
+      "status": "completed",
+      "createdAt": "2025-12-11T10:16:22.782Z",
+      "updatedAt": "2025-12-11T10:16:23.439Z",
+      "startedAt": "2025-12-11T10:16:22.792Z",
+      "dryRun": true,
+      "exitCode": 0,
+      "completedAt": "2025-12-11T10:16:23.439Z"
+    },
+    {
+      "id": "exp_1765448237567_j3elzdf0u",
+      "name": "Partial-30-v3",
+      "message": "Hello",
+      "dataset": "sample_images",
+      "batchSize": 1,
+      "epochs": 1,
+      "transforms": [
+        {
+          "name": "bit-corruption",
+          "rate": 0.3
+        }
+      ],
+      "status": "completed",
+      "createdAt": "2025-12-11T10:17:17.567Z",
+      "updatedAt": "2025-12-11T10:17:18.243Z",
+      "startedAt": "2025-12-11T10:17:17.587Z",
+      "dryRun": true,
+      "exitCode": 0,
+      "completedAt": "2025-12-11T10:17:18.243Z"
+    },
+    {
+      "id": "exp_1765448237575_fp9tmft8x",
+      "name": "Complete-80-v3",
+      "message": "Hello",
+      "dataset": "sample_images",
+      "batchSize": 1,
+      "epochs": 1,
+      "transforms": [
+        {
+          "name": "bit-corruption",
+          "rate": 0.8
+        }
+      ],
+      "status": "completed",
+      "createdAt": "2025-12-11T10:17:17.575Z",
+      "updatedAt": "2025-12-11T10:17:18.245Z",
+      "startedAt": "2025-12-11T10:17:17.595Z",
+      "dryRun": true,
+      "exitCode": 0,
+      "completedAt": "2025-12-11T10:17:18.245Z"
+    },
+    {
+      "id": "exp_1765448284458_qvpq7cmm3",
+      "name": "Test-Partial-30-Debug",
+      "message": "Hello",
+      "dataset": "sample_images",
+      "batchSize": 1,
+      "epochs": 1,
+      "transforms": [
+        {
+          "name": "bit-corruption",
+          "rate": 0.3
+        }
+      ],
+      "status": "completed",
+      "createdAt": "2025-12-11T10:18:04.458Z",
+      "updatedAt": "2025-12-11T10:18:05.281Z",
+      "startedAt": "2025-12-11T10:18:04.474Z",
+      "dryRun": true,
+      "exitCode": 0,
+      "completedAt": "2025-12-11T10:18:05.281Z"
+    },
+    {
+      "id": "exp_1765448343369_y4ee7ovna",
+      "name": "FINAL-Perfect-No-Transform",
+      "message": "This is a perfect test message",
+      "dataset": "sample_images",
+      "batchSize": 2,
+      "epochs": 1,
+      "transforms": [],
+      "status": "running",
+      "createdAt": "2025-12-11T10:19:03.369Z",
+      "updatedAt": "2025-12-11T10:19:03.399Z",
+      "startedAt": "2025-12-11T10:19:03.399Z",
+      "dryRun": true
+    },
+    {
+      "id": "exp_1765448343377_wnpjp463n",
+      "name": "FINAL-Partial-30pct-Corruption",
+      "message": "This is a partial recovery test",
+      "dataset": "sample_images",
+      "batchSize": 2,
+      "epochs": 1,
+      "transforms": [
+        {
+          "name": "bit-corruption",
+          "rate": 0.3
+        }
+      ],
+      "status": "completed",
+      "createdAt": "2025-12-11T10:19:03.377Z",
+      "updatedAt": "2025-12-11T10:19:04.194Z",
+      "startedAt": "2025-12-11T10:19:03.408Z",
+      "dryRun": true,
+      "exitCode": 0,
+      "completedAt": "2025-12-11T10:19:04.194Z"
+    },
+    {
+      "id": "exp_1765448343386_xpvgcfmeq",
+      "name": "FINAL-Complete-80pct-Corruption",
+      "message": "This is a complete loss test",
+      "dataset": "sample_images",
+      "batchSize": 2,
+      "epochs": 1,
+      "transforms": [
+        {
+          "name": "bit-corruption",
+          "rate": 0.8
+        }
+      ],
+      "status": "completed",
+      "createdAt": "2025-12-11T10:19:03.386Z",
+      "updatedAt": "2025-12-11T10:19:04.197Z",
+      "startedAt": "2025-12-11T10:19:03.417Z",
+      "dryRun": true,
+      "exitCode": 0,
+      "completedAt": "2025-12-11T10:19:04.197Z"
+    },
+    {
+      "id": "exp_1765448390984_j9sy2bypa",
+      "name": "Final-Perfect-V2",
+      "message": "This is a perfect test message for recovery",
+      "dataset": "sample_images",
+      "batchSize": 2,
+      "epochs": 1,
+      "transforms": [],
+      "status": "completed",
+      "createdAt": "2025-12-11T10:19:50.984Z",
+      "updatedAt": "2025-12-11T10:19:51.746Z",
+      "startedAt": "2025-12-11T10:19:51.012Z",
+      "dryRun": true,
+      "exitCode": 0,
+      "completedAt": "2025-12-11T10:19:51.746Z"
+    },
+    {
+      "id": "exp_1765448390992_5sda1h960",
+      "name": "Final-Partial-V2",
+      "message": "This is a partial recovery test for comparison",
+      "dataset": "sample_images",
+      "batchSize": 2,
+      "epochs": 1,
+      "transforms": [
+        {
+          "name": "bit-corruption",
+          "rate": 0.3
+        }
+      ],
+      "status": "completed",
+      "createdAt": "2025-12-11T10:19:50.992Z",
+      "updatedAt": "2025-12-11T10:19:51.748Z",
+      "startedAt": "2025-12-11T10:19:51.020Z",
+      "dryRun": true,
+      "exitCode": 0,
+      "completedAt": "2025-12-11T10:19:51.748Z"
+    },
+    {
+      "id": "exp_1765448391000_wn9ldk5ml",
+      "name": "Final-Complete-V2",
+      "message": "This is a complete loss test for demonstration",
+      "dataset": "sample_images",
+      "batchSize": 2,
+      "epochs": 1,
+      "transforms": [
+        {
+          "name": "bit-corruption",
+          "rate": 0.8
+        }
+      ],
+      "status": "completed",
+      "createdAt": "2025-12-11T10:19:51.000Z",
+      "updatedAt": "2025-12-11T10:19:51.750Z",
+      "startedAt": "2025-12-11T10:19:51.029Z",
+      "dryRun": true,
+      "exitCode": 0,
+      "completedAt": "2025-12-11T10:19:51.750Z"
+    },
+    {
+      "id": "exp_1765448471319_zk082if1r",
+      "name": "Final-Test-Perfect",
+      "message": "This is a perfect message test",
+      "dataset": "sample_images",
+      "batchSize": 2,
+      "epochs": 1,
+      "transforms": [],
+      "status": "completed",
+      "createdAt": "2025-12-11T10:21:11.319Z",
+      "updatedAt": "2025-12-11T10:21:12.091Z",
+      "startedAt": "2025-12-11T10:21:11.351Z",
+      "dryRun": true,
+      "exitCode": 0,
+      "completedAt": "2025-12-11T10:21:12.091Z"
+    },
+    {
+      "id": "exp_1765448471328_jmm4eibd0",
+      "name": "Final-Test-Partial-30",
+      "message": "This is a partial test with 30 percent",
+      "dataset": "sample_images",
+      "batchSize": 2,
+      "epochs": 1,
+      "transforms": [
+        {
+          "name": "bit-corruption",
+          "rate": 0.3
+        }
+      ],
+      "status": "completed",
+      "createdAt": "2025-12-11T10:21:11.328Z",
+      "updatedAt": "2025-12-11T10:21:12.092Z",
+      "startedAt": "2025-12-11T10:21:11.361Z",
+      "dryRun": true,
+      "exitCode": 0,
+      "completedAt": "2025-12-11T10:21:12.092Z"
+    },
+    {
+      "id": "exp_1765448471337_aej0ph5r7",
+      "name": "Final-Test-Complete-80",
+      "message": "This is a complete loss with 80 percent",
+      "dataset": "sample_images",
+      "batchSize": 2,
+      "epochs": 1,
+      "transforms": [
+        {
+          "name": "bit-corruption",
+          "rate": 0.8
+        }
+      ],
+      "status": "completed",
+      "createdAt": "2025-12-11T10:21:11.337Z",
+      "updatedAt": "2025-12-11T10:21:12.097Z",
+      "startedAt": "2025-12-11T10:21:11.371Z",
+      "dryRun": true,
+      "exitCode": 0,
+      "completedAt": "2025-12-11T10:21:12.097Z"
+    },
+    {
+      "id": "exp_1765448516156_fcq49rv87",
+      "name": "Test-Perfect-FINAL",
+      "message": "Perfect message recovery",
+      "dataset": "sample_images",
+      "batchSize": 1,
+      "epochs": 1,
+      "transforms": [],
+      "status": "completed",
+      "createdAt": "2025-12-11T10:21:56.156Z",
+      "updatedAt": "2025-12-11T10:21:56.915Z",
+      "startedAt": "2025-12-11T10:21:56.184Z",
+      "dryRun": true,
+      "exitCode": 0,
+      "completedAt": "2025-12-11T10:21:56.915Z"
+    },
+    {
+      "id": "exp_1765448516164_qiow7vdyi",
+      "name": "Test-Partial-FINAL",
+      "message": "Partial recovery test",
+      "dataset": "sample_images",
+      "batchSize": 1,
+      "epochs": 1,
+      "transforms": [
+        {
+          "name": "bit-corruption",
+          "rate": 0.3
+        }
+      ],
+      "status": "completed",
+      "createdAt": "2025-12-11T10:21:56.164Z",
+      "updatedAt": "2025-12-11T10:21:56.917Z",
+      "startedAt": "2025-12-11T10:21:56.193Z",
+      "dryRun": true,
+      "exitCode": 0,
+      "completedAt": "2025-12-11T10:21:56.917Z"
+    },
+    {
+      "id": "exp_1765448516172_aj7umv781",
+      "name": "Test-Complete-FINAL",
+      "message": "Complete loss test",
+      "dataset": "sample_images",
+      "batchSize": 1,
+      "epochs": 1,
+      "transforms": [
+        {
+          "name": "bit-corruption",
+          "rate": 0.8
+        }
+      ],
+      "status": "completed",
+      "createdAt": "2025-12-11T10:21:56.172Z",
+      "updatedAt": "2025-12-11T10:21:56.922Z",
+      "startedAt": "2025-12-11T10:21:56.203Z",
+      "dryRun": true,
+      "exitCode": 0,
+      "completedAt": "2025-12-11T10:21:56.922Z"
+    },
+    {
+      "id": "exp_1765448544143_xpbr69j5c",
+      "name": "Robustness-Perfect-100",
+      "message": "Perfect message test demonstration",
+      "dataset": "sample_images",
+      "batchSize": 2,
+      "epochs": 1,
+      "transforms": [],
+      "status": "completed",
+      "createdAt": "2025-12-11T10:22:24.143Z",
+      "updatedAt": "2025-12-11T10:22:24.863Z",
+      "startedAt": "2025-12-11T10:22:24.172Z",
+      "dryRun": true,
+      "exitCode": 0,
+      "completedAt": "2025-12-11T10:22:24.863Z"
+    },
+    {
+      "id": "exp_1765448544152_ustnhx1ib",
+      "name": "Robustness-Partial-20pct",
+      "message": "Partial message test demonstration",
+      "dataset": "sample_images",
+      "batchSize": 2,
+      "epochs": 1,
+      "transforms": [
+        {
+          "name": "bit-corruption",
+          "rate": 0.2
+        }
+      ],
+      "status": "completed",
+      "createdAt": "2025-12-11T10:22:24.152Z",
+      "updatedAt": "2025-12-11T10:22:24.867Z",
+      "startedAt": "2025-12-11T10:22:24.180Z",
+      "dryRun": true,
+      "exitCode": 0,
+      "completedAt": "2025-12-11T10:22:24.867Z"
+    },
+    {
+      "id": "exp_1765448544159_kvsk1jap6",
+      "name": "Robustness-Complete-70pct",
+      "message": "Complete loss test demonstration",
+      "dataset": "sample_images",
+      "batchSize": 2,
+      "epochs": 1,
+      "transforms": [
+        {
+          "name": "bit-corruption",
+          "rate": 0.7
+        }
+      ],
+      "status": "completed",
+      "createdAt": "2025-12-11T10:22:24.159Z",
+      "updatedAt": "2025-12-11T10:22:24.869Z",
+      "startedAt": "2025-12-11T10:22:24.189Z",
+      "dryRun": true,
+      "exitCode": 0,
+      "completedAt": "2025-12-11T10:22:24.869Z"
+    },
+    {
+      "id": "exp_1765449975135_6cn5guo6a",
+      "name": "Test-Gentle-JPEG95",
+      "message": "Hello",
+      "dataset": "sample_images",
+      "batchSize": 2,
+      "epochs": 1,
+      "transforms": [
+        {
+          "name": "jpeg",
+          "quality": 95
+        }
+      ],
+      "status": "completed",
+      "createdAt": "2025-12-11T10:46:15.135Z",
+      "updatedAt": "2025-12-11T10:46:16.229Z",
+      "startedAt": "2025-12-11T10:46:15.159Z",
+      "dryRun": true,
+      "exitCode": 0,
+      "completedAt": "2025-12-11T10:46:16.229Z"
+    },
+    {
+      "id": "exp_1765449978231_mpln5x8wr",
+      "name": "Test-Harsh-JPEG30",
+      "message": "Hello",
+      "dataset": "sample_images",
+      "batchSize": 2,
+      "epochs": 1,
+      "transforms": [
+        {
+          "name": "jpeg",
+          "quality": 30
+        },
+        {
+          "name": "noise",
+          "sigma": 0.1
+        }
+      ],
+      "status": "completed",
+      "createdAt": "2025-12-11T10:46:18.231Z",
+      "updatedAt": "2025-12-11T10:46:18.518Z",
+      "startedAt": "2025-12-11T10:46:18.245Z",
+      "dryRun": true,
+      "exitCode": 0,
+      "completedAt": "2025-12-11T10:46:18.518Z"
+    },
+    {
+      "id": "exp_1765449981295_f83x5u315",
+      "name": "Test-Medium-JPEG65",
+      "message": "Hello",
+      "dataset": "sample_images",
+      "batchSize": 2,
+      "epochs": 1,
+      "transforms": [
+        {
+          "name": "jpeg",
+          "quality": 65
+        },
+        {
+          "name": "resize",
+          "width": 200,
+          "height": 200
+        }
+      ],
+      "status": "completed",
+      "createdAt": "2025-12-11T10:46:21.295Z",
+      "updatedAt": "2025-12-11T10:46:21.594Z",
+      "startedAt": "2025-12-11T10:46:21.309Z",
+      "dryRun": true,
+      "exitCode": 0,
+      "completedAt": "2025-12-11T10:46:21.594Z"
+    }
+  ],
+  "results": []
+}
